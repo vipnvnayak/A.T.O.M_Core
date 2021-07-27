@@ -33,7 +33,7 @@ public class BaseDriver extends Helper{
 			this.driver = new InternetExplorerDriver();
 			break;
 		default:
-			throw new WebDriverException("No browser driver found.!");
+			throw new WebDriverException("No browser driver found.! please select valid browser");
 		}
 	}
 
