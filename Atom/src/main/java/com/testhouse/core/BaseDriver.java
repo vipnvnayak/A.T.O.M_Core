@@ -39,6 +39,7 @@ public class BaseDriver extends Helper{
 
 	public void get(String url) {
 		driver.get(url);
+		driver.manage().window().maximize();
 	}
 
 	public void setImplicitWait(int timeInSeconds) {
